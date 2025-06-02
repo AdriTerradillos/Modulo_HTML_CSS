@@ -669,6 +669,234 @@ Presiona `Ctrl + Alt + Z` para deshacer múltiples veces.
 ```
 
 
-### 18.3 Atajos de teclado para GitHub 
+### 18.3 🧑‍💻 Atajos de teclado para GitHub 
 
-###### Estos atajos van a funcionar cuando esté en [Haz clic aquí] (github.com)
+###### Estos atajos van a funcionar cuando esté en el enlace que redirige a github  https://github.com/
+
+```html
+<div style="border:1px solid #ccc; border-radius:5px; width: fit-content; font-family: monospace;">
+
+  <div style="background: #ddd; padding: 4px 10px; border-bottom: 1px solid #ccc;">
+    markdown
+  </div>
+
+  <pre style="margin: 0; padding: 10px;">
+
+<!-- 📁 Navegación -->
+Presiona `t` para buscar archivos dentro del repositorio.
+Presiona `w` para cambiar entre ramas/tags.
+Presiona `y` para convertir la URL a una versión permanente (con hash de commit).
+Presiona `s` para enfocar la barra de búsqueda principal.
+Presiona `l` cuando estés viendo código para enfocar el selector de línea (luego escribes un número).
+
+<!-- 📃 Archivos y commits -->
+Presiona `.` (punto) para abrir el repositorio en GitHub Codespaces/Web Editor.
+Presiona `b` para abrir la lista de ramas.
+Presiona `u` para ir al historial de commits.
+Presiona `i` para ver los "Issues".
+Presiona `p` para ver "Pull requests".
+      
+<!-- 🔗 Acciones rápidas --> 
+Presiona `g + c` para ir a la página de código del repositorio.
+Presiona `g + i` para ir a los issues.
+Presiona `g + p` para ir a pull requests.
+Presiona `g + n` para ir a notificaciones.
+Presiona `?` para ver todos los atajos en GitHub.
+      
+```  </pre>
+
+</div>
+
+```
+
+
+---
+
+
+### 18.4 Atajos de teclado para Máquinas Virtuales
+
+###### A continuación los principales para:
+
+```html
+<div style="border:1px solid #ccc; border-radius:5px; width: fit-content; font-family: monospace;">
+
+  <div style="background: #ddd; padding: 4px 10px; border-bottom: 1px solid #ccc;">
+    markdown
+  </div>
+
+  <pre style="margin: 0; padding: 10px;">
+
+<!-- 🧱 Oracle VirtualBox  -->
+Presiona `Host + R` para reiniciar la máquina (por defecto Host es Right Ctrl).
+Presiona `Host + Del` para enviar `Ctrl + Alt + Supr` a la VM.
+Presiona `Host + F` para modo pantalla completa.
+Presiona `Host + L` para modo pantalla escalada.
+Presiona `Host + C` para cambiar al modo consola sin ventana.
+Presiona `Host + H` para cerrar/apagar la máquina virtual.
+      
+<!-- 🧰 VMware Workstation / Player -->
+Presiona `Ctrl + Alt` para liberar el puntero del mouse.
+Presiona `Ctrl + Alt + Enter` para pantalla completa.
+Presiona `Ctrl + G` para capturar entrada del mouse/teclado.
+Presiona `Ctrl + Alt + Del` para enviar esa combinación a la VM.
+Presiona `Ctrl + Alt + Insert` para alternativa a `Ctrl + Alt + Supr`.
+      
+<!-- 🧪 Windows Sandbox --> 
+Presiona `Ctrl + Alt + Break` para alternar entre pantalla completa y modo ventana.
+Presiona `Ctrl + Alt + Supr` para acceder al administrador de tareas dentro del entorno.
+Presiona `Alt + Tab` para salir temporalmente del entorno a tu escritorio real.
+      
+      
+```  </pre>
+
+</div>
+
+```
+
+
+---
+
+
+## 19. 🧮 Ecuaciones matemáticas (LaTeX - solo en algunos visores como Typora, Obsidian, Jupyter)
+
+```html
+<div style="border:1px solid #ccc; border-radius:5px; width: fit-content; font-family: monospace;">
+
+  <div style="background: #ddd; padding: 4px 10px; border-bottom: 1px solid #ccc;">
+    markdown
+  </div>
+
+  <pre style="margin: 0; padding: 10px;">
+
+$$E = mc^2$$
+      
+```  </pre>
+
+</div>
+
+```
+
+###### Inline: `$\frac{a}{b}$`
+
+
+---
+
+
+## 20. Diagramas (compatibles en algunos visores como Mermaid o Markmap)
+
+```html
+<div style="border:1px solid #ccc; border-radius:5px; width: fit-content; font-family: monospace;">
+
+  <div style="background: #ddd; padding: 4px 10px; border-bottom: 1px solid #ccc;">
+    markdown
+  </div>
+
+  <pre style="margin: 0; padding: 10px;">
+      
+```mermaid
+graph TD
+A[Inicio] --> B[Proceso]
+B --> C{¿Condición?}
+C -->|Sí| D[Fin]
+C -->|No| B
+
+      
+```  </pre>
+
+</div>
+
+```
+
+
+---
+
+
+## 21. 📘 Definiciones tipo diccionario (no siempre soportado)
+
+```html
+<div style="border:1px solid #ccc; border-radius:5px; width: fit-content; font-family: monospace;">
+
+  <div style="background: #ddd; padding: 4px 10px; border-bottom: 1px solid #ccc;">
+    markdown
+  </div>
+
+  <pre style="margin: 0; padding: 10px;">
+      
+Término
+:   Definición del término
+
+```  </pre>
+
+</div>
+
+```
+
+
+---
+
+
+## 22. 🧱 Cajas de advertencia (solo en algunos renderizadores como Obsidian o VS Code con extensiones)
+
+```html
+<div style="border:1px solid #ccc; border-radius:5px; width: fit-content; font-family: monospace;">
+
+  <div style="background: #ddd; padding: 4px 10px; border-bottom: 1px solid #ccc;">
+    markdown
+  </div>
+
+  <pre style="margin: 0; padding: 10px;">
+
+      > [!NOTE]
+> Este es un mensaje informativo.
+
+> [!WARNING]
+> Esto es una advertencia.
+
+```  </pre>
+
+</div>
+
+```
+
+
+---
+
+
+## ✅ Plantilla Base para un .md de Documentación API
+
+```html
+<div style="border:1px solid #ccc; border-radius:5px; width: fit-content; font-family: monospace;">
+
+  <div style="background: #ddd; padding: 4px 10px; border-bottom: 1px solid #ccc;">
+    markdown
+  </div>
+
+  <pre style="margin: 0; padding: 10px;">
+      
+# 📘 API Cafetería
+
+## ✨ Introducción
+
+Breve descripción...
+
+## 🧭 Endpoints
+
+### GET /cafes
+
+> Devuelve todos los cafés registrados.
+
+### POST /cafes
+
+```json
+{
+  "nombre": "Espresso",
+  "origen": "Colombia",
+  "precio": 2.5
+}
+
+      
+```  </pre>
+
+</div>
+
+```
